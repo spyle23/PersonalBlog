@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Kate Clover",
+    "urlImage": "/assets/img/profile.jpg",
+    "description": "Justo stet no accusam stet invidunt sanctus magna clita vero eirmod, sit sit labore dolores lorem. Lorem at sit dolor dolores sed diam justo"
+  },
+  "publication": [
+    {
+      "title": "Lorem Ipsum dolor sit amet",
+      "urlImagePub": "/assets/img/blog1.jpg"
+    },
+    {
+        "title":"Lorem Ipsum dolor sit amet",
+        "urlImagePub":"/assets/img/blog2.jpg"
+    },
+    {
+        "title":"Lorem Ipsum dolor sit amet",
+        "urlImagePub":"/assets/img/blog3.jpg"
+    },
+    {
+        "title":"Lorem Ipsum dolor sit amet",
+        "urlImagePub":"/assets/img/blog4.jpg"
+    },
+    {
+        "title":"Lorem Ipsum dolor sit amet",
+        "urlImagePub":"/assets/img/blog5.jpg"
+    },
+    {
+        "title":"Lorem Ipsum dolor sit amet",
+        "urlImagePub":"/assets/img/blog6.jpg"
+    }   
+  ],
+  "carousel":[
+      {"url": "/assets/img/carousel-1.jpg"},
+      {"url": "/assets/img/carousel-2.jpg"},
+      {"url": "/assets/img/carousel-3.jpg"}
+  ]
+}

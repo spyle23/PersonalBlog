@@ -1,0 +1,24 @@
+
+    <div *ngIf="myProfile$|async as myProfile" class="profile col-md-4 d-flex h-100 justify-content-center m-0">
+        <div class="conteneur m-0">
+            <div class="container-image d-flex justify-content-center align-items-center">
+                <img [src]="myProfile.urlImage" alt="profile">
+            </div>
+            <div class="description d-flex justify-content-center align-items-center">
+                <div>
+                    <h2 class="text-center">{{myProfile.name | titlecase}}</h2>
+                    <div class="d-flex justify-content-center">
+                        <p class="mb-4">{{ myProfile.description }}</p>
+                    </div>
+                    <div class="icone d-flex justify-content-center align-items-start">
+                        <a class="d-flex justify-content-center align-items-center" href="#"><i class="bi bi-twitter"></i></a>
+                        <a  class="d-flex justify-content-center align-items-center " href="#"><i class="bi bi-facebook"></i></a>
+                        <a  class="d-flex justify-content-center align-items-center " href="#"><i class="bi bi-linkedin"></i></a>
+                        <a  class="d-flex justify-content-center align-items-center " href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                    <button class="btn">Hire me</button>
+                </div>
+            </div>
+        </div>
+    
+    </div>

@@ -1,0 +1,4 @@
+@import './@shared/style/couleur.scss';
+.container-fluid{
+    background-color: lighten($color: $tiertiary, $amount: 50);
+}
